@@ -23,7 +23,7 @@ const routes = [
   {
     name: "Main Dashboard",
     layout: "/admin",
-    path: "default",
+    path: "dashboard",
     icon: <MdHome className="h-6 w-6" />,
     component: <MainDashboard />,
   },
@@ -52,7 +52,7 @@ const routes = [
   {
     name: "Sign In",
     layout: "/auth",
-    path: "sign-in",
+    path: "default",
     icon: <MdLock className="h-6 w-6" />,
     component: <SignIn />,
   },

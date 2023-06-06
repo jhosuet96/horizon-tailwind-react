@@ -4,10 +4,10 @@ export default function Footer() {
   return (
     <div className="z-[5] mx-auto flex w-full max-w-screen-sm flex-col items-center justify-between px-[20px] pb-4 lg:mb-6 lg:max-w-[100%] lg:flex-row xl:mb-2 xl:w-[1310px] xl:pb-6">
       <p className="mb-6 text-center text-sm text-gray-600 md:text-base lg:mb-0">
-        ©{1900 + new Date().getYear()} Horizon UI. All Rights Reserved.
+      ©{1900 + new Date().getYear()} San Cesta.
       </p>
       <ul className="flex flex-wrap items-center sm:flex-nowrap">
-        <li className="mr-12">
+        {/* <li className="mr-12">
           <a
             target="blank"
             href="mailto:hello@simmmple.com"
@@ -15,7 +15,7 @@ export default function Footer() {
           >
             Support
           </a>
-        </li>
+        </li> */}
         <li className="mr-12">
           <a
             target="blank"
@@ -34,7 +34,7 @@ export default function Footer() {
             Terms of Use
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             target="blank"
             href="https://blog.horizon-ui.com/"
@@ -42,7 +42,7 @@ export default function Footer() {
           >
             Blog
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

@@ -80,8 +80,8 @@ export default function Admin(props) {
                 {getRoutes(routes)}
 
                 <Route
-                  path="/"
-                  element={<Navigate to="/admin/default" replace />}
+                  path="/admin/dashboard"
+                  element={<Navigate to="/admin/dashboard" replace />}
                 />
               </Routes>
             </div>
