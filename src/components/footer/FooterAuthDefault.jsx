@@ -16,6 +16,7 @@ export default function Footer() {
             Support
           </a>
         </li> */}
+        {/*
         <li className="mr-12">
           <a
             target="blank"
@@ -33,7 +34,7 @@ export default function Footer() {
           >
             Terms of Use
           </a>
-        </li>
+        </li>*/}
         {/* <li>
           <a
             target="blank"

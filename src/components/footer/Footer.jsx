@@ -17,6 +17,8 @@ const Footer = () => {
               Support
             </a>
           </li> */}
+
+          {/*
           <li>
             <a
               target="blank"
@@ -34,7 +36,7 @@ const Footer = () => {
             >
               Terms of Use
             </a>
-          </li>
+          </li>*/}
           {/* <li>
             <a
               target="blank"
