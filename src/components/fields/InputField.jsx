@@ -2,7 +2,7 @@
 import React from "react";
 
 function InputField(props) {
-  const { label, id, extra, type, placeholder, variant, state, disabled } =
+  const { label, id, extra, type, placeholder, variant, state, disabled, name, onChange } =
     props;
 
   return (
@@ -16,6 +16,8 @@ function InputField(props) {
         {label}
       </label>
       <input
+      onChange={onChange}
+        name={name}
         disabled={disabled}
         type={type}
         id={id}
